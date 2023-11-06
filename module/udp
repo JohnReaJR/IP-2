@@ -808,8 +808,8 @@ vps_info() {
   memory=$(neofetch | grep "Memory" | cut -d: -f2 | sed 's/ //g')
 
   clear
-  title "\033[3;40m${a10:-•UDP Request Manager} by @voltssh•"
-  print_center -ama ' Version: ⇢ 2.0Lite'
+  title "\033[3;40m${a10:-•UDP Request Manager} by InFiNitY"
+  print_center -ama ' Version: ⇢ 3.0Lite'
   print_center -ama ' VPS Info'
   msg -bar
   echo " "
@@ -826,8 +826,8 @@ vps_info() {
 
 # [UDP - Request]
 menu_udp_request() {
-  title_sub "\033[3;40m${a10:-•UDP Request Manager} by @voltssh•"
-  print_center -ama ' Version: 2.0Lite'
+  title_sub "\033[3;40m${a10:-•UDP Request Manager} by InFiNitY"
+  print_center -ama ' Version: 3.0Lite'
   print_center -ama ' UDP REQUEST'
   print_center -ama ' Tunnel App : SocksIP'
   msg -bar
