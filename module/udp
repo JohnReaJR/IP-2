@@ -873,8 +873,8 @@ menu_udp_request() {
 # [MAIN MENU]A
 menu_main() {
   main_title "\033[3;40m${a10:-• UDP Request Manager} •"
-  print_center -ama 'Version: ⇢ 2.0Lite'
-  print_center -ama 'by @voltssh'
+  print_center -ama 'Version: ⇢ 3.0Lite'
+  print_center -ama 'by InFiNitY'
   msg -bar
 
   # calculate RAM and CPU usage
